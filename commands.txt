@@ -1,6 +1,17 @@
 git clone https://github.com/Dhanush940/demo.git //Will clone the repository to your local machine.
 
+git config user.email "dhanushkunamaneni123@gmail.com" // For this repository
+
 git add commands.txt //Tracks the changes
 
 Untracked means git doesn't know about the file yet. So to make git know about the file we have to use git add commands.txt
 
+git add . //Telling git to track all the files in the directory
+
+git commit -m "Added commands.txt" -m "Some description" 
+//Saved our code only locally . -m stands for message.Ideally the message should have something to do with What and Why behind the commit we are making.
+
+To make the code live we have to use the following command.
+git push
+
+cat id_rsa.pub // Outputs the content of the file. pub short for public and you use this key to publish your changes
