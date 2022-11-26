@@ -1,0 +1,4 @@
+Branching allows us to switch between kind of different versions of the same project lets' say
+git branch commands tells us which branch are we on
+git checkout -b <branchName> allows to create a new branch
+git checkout <branch> allows us to switch between diferent branches
